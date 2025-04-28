@@ -1,0 +1,65 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
+import os
+import requests
+import time
+
+# URL base
+url_base = "https://finatec.sibbr.gov.br/"
+caminho_desejado = ["Dados", "Lidar", "Edital", "15_2022", "RJ", "BLOCO_3_RJ"] #, "ept_000350", "ept-data"
+
+# Diretório para salvar os arquivos
+diretorio_destino = r"C:\Users\davils\Documents\Lauriano\Inea\dados_Paulo"
+os.makedirs(diretorio_destino, exist_ok=True)
+
+# Configurar o serviço do ChromeDriver
+service = Service(ChromeDriverManager().install())
+driver = webdriver.Chrome(service=service)
+driver.get(url_base)
+
+try:
+    # Navega pelo caminho desejado
+    for parte in caminho_desejado:
+        # Espera explícita para localizar e clicar no elemento, agora tentando localizar <span> e elementos próximos
+        elemento = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, f"//a[contains(text(), '{parte}')] | //span[contains(text(), '{parte}')]"))
+        )
+        
+        # Tenta clicar no elemento (aqui ajustamos o código para elementos span ou a)
+        if elemento.tag_name == "span":
+            # Se for um <span>, procurar o contêiner pai para clicar
+            elemento = elemento.find_element(By.XPATH, "./parent::a")
+        
+        ActionChains(driver).move_to_element(elemento).click().perform()
+        time.sleep(2)  # Aguarda a página carregar ou o menu expandir
+
+    # Coleta os links dos arquivos .las na página final
+    links = driver.find_elements(By.XPATH, "//a[contains(@href, '.las')]") #ou 'laz'
+    print(f"Encontrados {len(links)} arquivos .las para download.")
+
+    for link in links:
+        arquivo_url = link.get_attribute("href")
+        nome_arquivo = os.path.join(diretorio_destino, arquivo_url.split("/")[-1])
+
+        # Faz o download do arquivo
+        print(f"Baixando: {arquivo_url}")
+        response = requests.get(arquivo_url, stream=True)
+        response.raise_for_status()
+
+        with open(nome_arquivo, "wb") as file:
+            for chunk in response.iter_content(chunk_size=8192):
+                file.write(chunk)
+
+        print(f"Concluído: {nome_arquivo}")
+
+except Exception as e:
+    print(f"Erro durante a navegação ou download: {e}")
+
+finally:
+    # Fecha o navegador
+    driver.quit()

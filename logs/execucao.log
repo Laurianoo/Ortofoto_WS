@@ -1,0 +1,102 @@
+2025-04-27 16:58:17,723 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-27 16:58:18,613 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-27 16:58:19,676 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-27 16:58:19,952 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-27 16:58:20,519 - WDM - INFO - logger.py:11 - WebDriver version 135.0.7049.114 selected
+2025-04-27 16:58:20,519 - WDM - INFO - logger.py:11 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-27 16:58:20,519 - WDM - INFO - logger.py:11 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-27 16:58:21,038 - WDM - INFO - logger.py:11 - Driver downloading response is 200
+2025-04-27 16:58:21,839 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-27 16:58:22,332 - WDM - INFO - logger.py:11 - Driver has been saved in cache [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-27 16:58:44,414 - root - INFO - web_scraping.py:79 - [Página atual] Encontrados 8 arquivos começando com 'RJ_'
+2025-04-27 16:58:44,434 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L01C10.prj
+2025-04-27 16:58:44,436 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L01C10.tfw
+2025-04-27 16:58:44,436 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L01C10.tif
+2025-04-27 16:58:44,442 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L01C11.prj
+2025-04-27 16:58:44,445 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L01C11.tfw
+2025-04-27 16:58:44,447 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L01C11.tif
+2025-04-27 16:58:44,449 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C07.prj
+2025-04-27 16:58:44,452 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C07.tfw
+2025-04-27 16:58:44,467 - root - INFO - web_scraping.py:102 - Indo para a próxima página...
+2025-04-27 16:58:47,494 - root - INFO - web_scraping.py:79 - [Página atual] Encontrados 10 arquivos começando com 'RJ_'
+2025-04-27 16:58:47,494 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C08.prj
+2025-04-27 16:58:47,494 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C08.tfw
+2025-04-27 16:58:47,507 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C08.tif
+2025-04-27 16:58:47,510 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C09.prj
+2025-04-27 16:58:47,510 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C09.tfw
+2025-04-27 16:58:47,514 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C09.tif
+2025-04-27 16:58:47,516 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C10.prj
+2025-04-27 16:58:47,519 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C10.tfw
+2025-04-27 16:58:47,521 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C10.tif
+2025-04-27 16:58:47,524 - root - INFO - web_scraping.py:86 - Já existe, pulando: output\RJ_L02C11.prj
+2025-04-27 16:58:47,528 - root - INFO - web_scraping.py:102 - Indo para a próxima página...
+2025-04-27 16:58:50,555 - root - INFO - web_scraping.py:79 - [Página atual] Encontrados 10 arquivos começando com 'RJ_'
+2025-04-27 16:58:50,555 - root - INFO - web_scraping.py:89 - Baixando: https://finatec-public-data-technical.s3.amazonaws.com/Dados/Lidar/Edital%2053_2022/PRODUTO%2003%20-%20ORTOFOTOS%20E%20PLANIMETRIA/Ortofotos/RJ/BLOCO_03_RJ/RJ_L02C11.tfw
+2025-04-27 16:58:51,474 - root - INFO - web_scraping.py:95 - Concluído: output\RJ_L02C11.tfw
+2025-04-27 16:58:51,489 - root - INFO - web_scraping.py:89 - Baixando: https://finatec-public-data-technical.s3.amazonaws.com/Dados/Lidar/Edital%2053_2022/PRODUTO%2003%20-%20ORTOFOTOS%20E%20PLANIMETRIA/Ortofotos/RJ/BLOCO_03_RJ/RJ_L02C11.tif
+
+
+2025-04-28 12:34:32,216 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 12:34:33,162 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:34:33,480 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:34:33,741 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:34:34,338 - WDM - INFO - logger.py:11 - WebDriver version 135.0.7049.114 selected
+2025-04-28 12:34:34,338 - WDM - INFO - logger.py:11 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-28 12:34:34,338 - WDM - INFO - logger.py:11 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-28 12:34:34,729 - WDM - INFO - logger.py:11 - Driver downloading response is 200
+2025-04-28 12:34:35,605 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:34:36,074 - WDM - INFO - logger.py:11 - Driver has been saved in cache [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-28 12:34:56,041 - root - INFO - web_scraping.py:79 - [Página atual] Encontrados 0 arquivos começando com 'RJ_'
+2025-04-28 12:35:01,161 - root - INFO - web_scraping.py:106 - Não há mais páginas. Processo finalizado.
+2025-04-28 12:35:38,250 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 12:35:39,218 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:35:39,489 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:35:39,783 - WDM - INFO - logger.py:11 - Driver [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-28 12:35:59,751 - root - INFO - web_scraping.py:79 - [Página atual] Encontrados 5 arquivos começando com 'RJ_'
+2025-04-28 12:35:59,763 - root - INFO - web_scraping.py:89 - Baixando: https://finatec-public-data-technical.s3.amazonaws.com/Dados/Lidar/Edital%2053_2022/PRODUTO%2003%20-%20ORTOFOTOS%20E%20PLANIMETRIA/Articula%C3%A7%C3%A3o/RJ/BLOCO_03_RJ/ARTICULACAO_BLOCO_RJ.cpg
+2025-04-28 12:36:00,850 - root - INFO - web_scraping.py:95 - Concluído: Articulacao\ARTICULACAO_BLOCO_RJ.cpg
+2025-04-28 12:36:00,850 - root - INFO - web_scraping.py:89 - Baixando: https://finatec-public-data-technical.s3.amazonaws.com/Dados/Lidar/Edital%2053_2022/PRODUTO%2003%20-%20ORTOFOTOS%20E%20PLANIMETRIA/Articula%C3%A7%C3%A3o/RJ/BLOCO_03_RJ/ARTICULACAO_BLOCO_RJ.dbf
+2025-04-28 12:36:02,018 - root - INFO - web_scraping.py:95 - Concluído: Articulacao\ARTICULACAO_BLOCO_RJ.dbf
+2025-04-28 12:36:02,018 - root - INFO - web_scraping.py:89 - Baixando: https://finatec-public-data-technical.s3.amazonaws.com/Dados/Lidar/Edital%2053_2022/PRODUTO%2003%20-%20ORTOFOTOS%20E%20PLANIMETRIA/Articula%C3%A7%C3%A3o/RJ/BLOCO_03_RJ/ARTICULACAO_BLOCO_RJ.prj
+2025-04-28 12:36:03,150 - root - INFO - web_scraping.py:95 - Concluído: Articulacao\ARTICULACAO_BLOCO_RJ.prj
+2025-04-28 12:36:03,166 - root - INFO - web_scraping.py:89 - Baixando: https://finatec-public-data-technical.s3.amazonaws.com/Dados/Lidar/Edital%2053_2022/PRODUTO%2003%20-%20ORTOFOTOS%20E%20PLANIMETRIA/Articula%C3%A7%C3%A3o/RJ/BLOCO_03_RJ/ARTICULACAO_BLOCO_RJ.shp
+2025-04-28 12:36:03,759 - root - INFO - web_scraping.py:95 - Concluído: Articulacao\ARTICULACAO_BLOCO_RJ.shp
+2025-04-28 12:36:03,759 - root - INFO - web_scraping.py:89 - Baixando: https://finatec-public-data-technical.s3.amazonaws.com/Dados/Lidar/Edital%2053_2022/PRODUTO%2003%20-%20ORTOFOTOS%20E%20PLANIMETRIA/Articula%C3%A7%C3%A3o/RJ/BLOCO_03_RJ/ARTICULACAO_BLOCO_RJ.shx
+2025-04-28 12:36:04,866 - root - INFO - web_scraping.py:95 - Concluído: Articulacao\ARTICULACAO_BLOCO_RJ.shx
+2025-04-28 12:36:09,998 - root - INFO - web_scraping.py:106 - Não há mais páginas. Processo finalizado.
+2025-04-28 12:38:08,399 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 12:38:09,307 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:38:09,583 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:38:09,837 - WDM - INFO - logger.py:11 - Driver [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-28 12:38:33,466 - root - INFO - web_scraping.py:80 - [Página atual] Encontrados 0 arquivos começando com 'RJ_'
+2025-04-28 12:38:38,615 - root - INFO - web_scraping.py:107 - Não há mais páginas. Processo finalizado.
+2025-04-28 12:41:16,457 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 12:41:17,390 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:41:17,679 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:41:17,955 - WDM - INFO - logger.py:11 - Driver [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-28 12:41:41,047 - root - INFO - web_scraping.py:80 - [Página atual] Encontrados 0 arquivos começando com 'RJ_'
+2025-04-28 12:41:46,171 - root - INFO - web_scraping.py:107 - Não há mais páginas. Processo finalizado.
+2025-04-28 12:42:13,424 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 12:42:14,376 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:42:14,670 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:42:14,946 - WDM - INFO - logger.py:11 - Driver [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-28 12:42:38,129 - root - INFO - web_scraping.py:80 - [Página atual] Encontrados 0 arquivos começando com 'RJ_'
+2025-04-28 12:42:43,266 - root - INFO - web_scraping.py:107 - Não há mais páginas. Processo finalizado.
+2025-04-28 12:43:23,422 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 12:43:24,307 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:43:24,582 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:43:24,841 - WDM - INFO - logger.py:11 - Driver [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-28 12:43:55,167 - root - INFO - web_scraping.py:80 - [Página atual] Encontrados 0 arquivos começando com 'RJ_'
+2025-04-28 12:44:00,341 - root - INFO - web_scraping.py:107 - Não há mais páginas. Processo finalizado.
+2025-04-28 12:45:26,757 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 12:45:27,673 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:45:27,978 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 12:45:28,245 - WDM - INFO - logger.py:11 - Driver [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-28 12:45:58,533 - root - INFO - web_scraping.py:80 - [Página atual] Encontrados 0 arquivos começando com 'RJ_'
+2025-04-28 12:46:03,688 - root - INFO - web_scraping.py:107 - Não há mais páginas. Processo finalizado.
+2025-04-28 14:04:53,933 - WDM - INFO - logger.py:11 - ====== WebDriver manager ======
+2025-04-28 14:04:55,421 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 14:04:55,910 - WDM - INFO - logger.py:11 - Get LATEST chromedriver version for google-chrome
+2025-04-28 14:04:56,228 - WDM - INFO - logger.py:11 - Driver [C:\Users\davils\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-28 14:05:27,453 - root - INFO - web_scraping.py:80 - [Página atual] Encontrados 0 arquivos começando com 'RJ_'
+2025-04-28 14:05:32,616 - root - INFO - web_scraping.py:107 - Não há mais páginas. Processo finalizado.
