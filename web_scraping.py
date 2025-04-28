@@ -27,7 +27,7 @@ caminho_desejado = [
 ]
 
 # Diretório para salvar os arquivos
-diretorio_destino = r"Articulacao"
+diretorio_destino = r"Output"
 os.makedirs(diretorio_destino, exist_ok=True)
 
 def setup_logging():
